@@ -1,0 +1,13 @@
+# Service
+
+## Regra Cread
+???
+
+## Regra Read
+???
+
+## Regra Update
+???
+
+## Regra Delete
+???
