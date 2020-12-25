@@ -10,4 +10,10 @@ eBook tutorial sobre como criar uma Web API Kotlin com Spring
 5. [Deploy](./deploy)
 6. [CI](./ci)
 
+---
+
+Esta obra está licenciada com uma Licença [Creative Commons Atribuição-NãoComercial-SemDerivações 4.0 Internacional](https://creativecommons.org/licenses/by-nc-nd/4.0/).
+
+![License CC](license.png)
+
 
