@@ -33,7 +33,8 @@ data class Account(
 `@Id` Essa diz que o atributo será a chave primára da nossa classe.   
 `@GeneratedValue` Aqui falamos para o banco de dados gerar automáticamente nossos `ids` o famoso `AutoIncremento`.
 
-## Cread
+## Create
+
 Com nossao modelo criado e a classe de Controleler criada e já configurada, podemos começar a criar nossos endpoints/rotas:
 
 ```kotlin
@@ -52,6 +53,7 @@ Então, temos uma função que recebe por paramentro nossa classe de modelo e ap
 
 
 ## Read
+
 Agora vamos preparar nossa rota de GET que irá listar todas as contas:
 
 ```kotlin
@@ -73,15 +75,18 @@ fun getById(@PathVariable id: Long) : ResponseEntity<Account> =
 Bom, estamos por enquanto fazendo tudo bem simples, neste caso retornando um `body` null apenas para ter a rota depois vamos evoluir criando uma consulta pelo parametro que será passado.
 
 ## Update
+
 Vamos seguindo agora com a nossa rota de `Update`
 
 ```kotlin
 @PutMapping("/{id}")
-fun update(@PathVariable id: Long, @RequestBody account: Account) : ResponseEntity<Account> = ResponseEntity.ok().body(null)
+fun update(@PathVariable id: Long, @RequestBody account: Account) : ResponseEntity<Account> = 
+    ResponseEntity.ok().body(null)
 ```
 Aqui criamos uma função que responderá pelo `HTTP PUT` com um parametro na Path e um body assim como fizemos no método `create` e também estamos retornando nullo porque não temos nossa camada de persistencia para ser atualizada. Já já vamos enriquecer nossas rotas com dados reais.
 
 ## Delete
+
 Finalizando nossas rotas com uma função que responderá sobre o método `HTTP DELETE` sobre nossa rota principal `accounts/id` então assim nas outras rotas receberemos apenas um parametro na Path que usaremos para buscar no banco de dados e deletar.
 
 ```kotlin
