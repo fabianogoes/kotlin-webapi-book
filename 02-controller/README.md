@@ -100,6 +100,6 @@ fun delete(@PathVariable id: Long) : ResponseEntity<Void> {
 ---
 [Home](../README.md)
 
-[Anterior](./01-projeto/README.md)
+[Anterior](../01-projeto/README.md)
 
 [Proximo](../02-controller/README.md)
