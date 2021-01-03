@@ -11,7 +11,7 @@ eBook tutorial sobre como criar uma Web API Kotlin com Spring
 5. [Controller Refactoring](./05-controller-refactoring/README.md)
 6. [Testes Automátizados](./06-tests/README.md)
 7. [Integração Continua](./07-ci/README.md)
-8. [Deploy](./07-deploy/README.md)
+8. [Deploy](./08-deploy/README.md)
 
 ---
 
