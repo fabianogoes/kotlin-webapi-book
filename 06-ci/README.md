@@ -1,3 +1,0 @@
-# CI
-
-## Travis CI
