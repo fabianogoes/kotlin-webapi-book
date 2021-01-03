@@ -6,6 +6,6 @@
 
 [Home](../README.md)
 
-[Anterior](./06-tests/README.md)
+[Anterior](../06-tests/README.md)
 
-[Proximo](./07-deploy/README.md)
+[Proximo](../07-deploy/README.md)

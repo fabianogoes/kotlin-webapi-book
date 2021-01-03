@@ -63,6 +63,6 @@ e assim temos nosssa versão final e funcional de nosso controlles passando por 
 
 [Home](../README.md)
 
-[Anterior](./04-service/README.md)
+[Anterior](../04-service/README.md)
 
-[Proximo](./05-controller-refactoring/README.md)
+[Proximo](../05-controller-refactoring/README.md)

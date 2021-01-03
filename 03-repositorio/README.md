@@ -62,6 +62,6 @@ interface AccountRepository : JpaRepository<Account, Long> {
 ---
 [Home](../README.md)
 
-[Anterior](./02-controller/README.md)
+[Anterior](../02-controller/README.md)
 
-[Proximo](./04-service/README.md)
+[Proximo](../04-service/README.md)
