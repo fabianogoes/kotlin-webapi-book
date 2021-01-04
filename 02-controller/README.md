@@ -97,9 +97,3 @@ fun delete(@PathVariable id: Long) : ResponseEntity<Void> {
 }
 ```
 
----
-[Home](../README.md)
-
-[Anterior](../01-projeto/README.md)
-
-[Proximo](../03-repositorio/README.md)

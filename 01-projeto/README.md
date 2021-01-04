@@ -82,9 +82,3 @@ Como o projeto aberto na `IDE` vamos criar os seguitas packages:
 * service
 
 ![Estrutura](./structure.png)
-
-
----
-[Home](../README.md)
-
-[Poximo](../02-controller/README.md)

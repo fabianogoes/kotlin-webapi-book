@@ -69,10 +69,3 @@ override fun delete(id: Long) {
 }
 ```
 
----
-
-[Home](../README.md)
-
-[Anterior](../03-repositorio/README.md)
-
-[Proximo](../05-controller-refactoring/README.md)

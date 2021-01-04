@@ -59,10 +59,3 @@ fun update(@PathVariable id: Long, @RequestBody account: Account) : ResponseEnti
 
 e assim temos nosssa versão final e funcional de nosso controlles passando por todas as camadas.
 
----
-
-[Home](../README.md)
-
-[Anterior](../04-service/README.md)
-
-[Proximo](../06-tests/README.md)
